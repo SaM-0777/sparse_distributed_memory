@@ -4,7 +4,7 @@ import torch.nn.functional as F
 import matplotlib.pyplot as plt
 
 from src.sdm import SparseDistributedMemory
-from src.sdm_continuous import ContinuousDM
+from continuous_dm import ContinuousDM
 
 # --- 1. Setup Parameters ---
 N, U, M = 256, 256, 1000
